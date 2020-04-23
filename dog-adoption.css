@@ -16,7 +16,34 @@ header {
     transform: translate (-50%, -50%);
 }
 
-.flex-container {
+/* #dog-group{
+   width: 33.3%;
+   padding: 40px 80px 40px 80px;
    display: flex;
-   justify-content: left; 
+   flex-direction: row;
+   flex-wrap: no-wrap;
+   justify-content: space-around; */
+
+  .dog-group {
+  vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+
 }
+
+.dog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 32%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#bottom-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
