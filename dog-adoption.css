@@ -41,9 +41,18 @@ header {
     margin-left: 10px;
 }
 
-#bottom-flex {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+.dog img {
+    width: 100%;
 }
 
+.bottom-flex {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+
+.bottom-flex img {
+    width: 20%;
+    height: 100%;
+}
