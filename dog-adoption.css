@@ -46,13 +46,35 @@ header {
 }
 
 .bottom-flex {
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: flex-start;
+   
 }
 
-
-.bottom-flex img {
-    width: 20%;
-    min-height: 100%;
+.gradient {
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
 }
+
+#donate {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/donate.jpg);
+}
+
+#volunteer {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/volunteer.jpg);
+}
+
+#location {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/location.png);
+}
+
