@@ -1,0 +1,80 @@
+header {
+    background-color: blue;
+    color: white;
+}
+
+.desc-words {
+    display: inline;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 16px 16px 16px 16px;   
+}
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%
+    transform: translate (-50%, -50%);
+}
+
+/* #dog-group{
+   width: 33.3%;
+   padding: 40px 80px 40px 80px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: no-wrap;
+   justify-content: space-around; */
+
+  .dog-group {
+  vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.dog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 32%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dog img {
+    width: 100%;
+}
+
+.bottom-flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   
+}
+
+.gradient {
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
+}
+
+#donate {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/donate.jpg);
+}
+
+#volunteer {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/volunteer.jpg);
+}
+
+#location {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(images/location.png);
+}
+
